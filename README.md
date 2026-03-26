@@ -18,7 +18,7 @@ curl -fLO https://github.com/Harmonybrew/ohos-gawk/releases/download/5.3.2/gawk-
 tar -zxf gawk-5.3.2-ohos-arm64.tar.gz
 export PATH=~/gawk-5.3.2-ohos-arm64/bin:$PATH
 
-# 现在可以使用 gawk 命令了
+# 现在可以使用 awk 命令了
 ```
 
 **2\. 在鸿蒙开发板中使用**
@@ -34,7 +34,7 @@ cd /data
 tar -zxf gawk-5.3.2-ohos-arm64.tar.gz
 export PATH=/data/gawk-5.3.2-ohos-arm64/bin:$PATH
 
-# 现在可以使用 gawk 命令了
+# 现在可以使用 awk 命令了
 ```
 
 **3\. 在 [鸿蒙容器](https://github.com/hqzing/dockerharmony) 中使用**
@@ -48,7 +48,7 @@ curl -fLO https://github.com/Harmonybrew/ohos-gawk/releases/download/5.3.2/gawk-
 tar -zxf gawk-5.3.2-ohos-arm64.tar.gz
 export PATH=/opt/gawk-5.3.2-ohos-arm64/bin:$PATH
 
-# 现在可以使用 gawk 命令了
+# 现在可以使用 awk 命令了
 ```
 
 ## 从源码构建
